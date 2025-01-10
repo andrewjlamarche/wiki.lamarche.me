@@ -6,7 +6,10 @@ category: hacking
 layout: post
 ---
 
-DISCLAIMER: This post reflects myself and only myself in its entirety. It is in no way related to or sponsored by my employer or anyone else. On February 3, 2023, I had reached out to Hughes in attempt to properly disclose these findings. Over the course of 6 months, we were trying to find a way for both sides to do this safely. As of August 30, 2023, I have received no further responses from Hughes' security team. I've attempted to contact them 3 times since but have not gotten a response.
+> ##### DISCLAIMER
+>
+> DISCLAIMER: This post reflects myself and only myself in its entirety. It is in no way related to or sponsored by my employer or anyone else. On February 3, 2023, I had reached out to Hughes in attempt to properly disclose these findings. Over the course of 6 months, we were trying to find a way for both sides to do this safely. As of August 30, 2023, I have received no further responses from Hughes' security team. I've attempted to contact them 3 times since but have not gotten a response.
+{: .block-warning }
 
 
 HughesNet is a USA-based satellite internet provider. As of writing, they are on their 5th generation of satellite technology and issue customers the HT2000W satellite modem as part of their "VSAT" package. For those who don't know, VSAT stands for "Very Small Aperture Terminal", which effectively means a "small", two-way antenna. This is a bit of a unique piece of hardware, given that it ties together a satellite modem and a wireless router into one package. Unfortunately, there's next to no information on this device outside of the FCCID docs, and the pictures are so blurry and useless. #challengeaccepted Before we get started, I should note that this firmware appears to be at least a couple years old, so their security posture may have changed significantly. Anyways, let's crack this bad boy open!
