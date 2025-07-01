@@ -7,8 +7,8 @@ parent: DHCP
 
 DOCSIS uses option 43 with may suboptions.
 
-|---|---|---|---|
 |Suboption|Name|Value|Example|
+|---|---|---|---|
 |2|Device Type|Device type|STB|
 |3|eSAFE Types|eSAFE type|ECM|
 |4|Serial Number|Modem's serial number|001122334455|
@@ -19,3 +19,8 @@ DOCSIS uses option 43 with may suboptions.
 |9|Model Number|Modem's model number|SB6190|
 |10|Vendor Name|Modem vendor|Arris Technologies|
 
+# Commscope
+
+|Device|Vendor Name|Model Number|
+|---|---|---|
+|CommScope TG4482A|Arris Group, Inc.|TG4482A|

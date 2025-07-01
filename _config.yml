@@ -60,10 +60,6 @@ nav_enabled: true
 
 nav_sort: case_sensitive
 
-nav_external_links:
-  - title: The Hack Shack
-    url: https://andrew.lamarche.me
-
 nav_error_report: true
 
 liquid:
