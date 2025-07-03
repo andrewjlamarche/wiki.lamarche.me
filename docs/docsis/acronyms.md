@@ -1,6 +1,6 @@
 ---
 title: Acronyms
-parent: docsis
+parent: DOCSIS
 ---
 
 |Acronym|Meaning|References|
