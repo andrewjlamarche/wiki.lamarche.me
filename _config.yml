@@ -52,7 +52,7 @@ search:
 enable_copy_code_button: true
 
 mermaid:
-  version: "9.1.6"
+  version: "11.7.0"
 
 heading_anchors: true
 
