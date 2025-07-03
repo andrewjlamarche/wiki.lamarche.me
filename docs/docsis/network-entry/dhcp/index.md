@@ -1,6 +1,6 @@
 ---
 title: DHCP
-parent: DOCSIS
+parent: Network Entry
 ---
 
 # DHCP
