@@ -5,7 +5,7 @@ parent: DHCP
 
 # DHCP Option 43 (Vendor-Specific Information)
 
-DOCSIS uses option 43 with may suboptions.
+DOCSIS uses option 43, with may suboptions, to provide information to the DHCP about which kind of device is attempting to join the network.
 
 |Suboption|Name|Value|Example|
 |---|---|---|---|
@@ -23,4 +23,5 @@ DOCSIS uses option 43 with may suboptions.
 
 |Device|Vendor Name|Model Number|
 |---|---|---|
-|CommScope TG4482A|Arris Group, Inc.|TG4482A|
+|Airspan 2200|Alpha Technologies|SMG-01PE-23|
+|CommScope TG4482A|ARRIS Group, Inc.|TG4482A|
